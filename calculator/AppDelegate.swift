@@ -8,14 +8,27 @@
 
 import UIKit
 
+let BACKGROUND_COLOR = UIColor.init(red: 0.2784, green: 0.0667, blue: 0, alpha: 1.0) // Blueish
+let FOREGROUND_COLOR = UIColor.init(red: 0.8863, green: 0.9098, blue: 1, alpha: 1.0)// Tannish
+
+
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
+    
+ 
     var window: UIWindow?
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let navAppearance = UINavigationBar.appearance()
+        navAppearance.barTintColor = BACKGROUND_COLOR
+        navAppearance.tintColor = FOREGROUND_COLOR
+        navAppearance.isTranslucent = false
+        navAppearance.titleTextAttributes = [NSAttributedStringKey.foregroundColor : UIColor.white] //???????????why does nsforeground not work
+   
         return true
     }
 
