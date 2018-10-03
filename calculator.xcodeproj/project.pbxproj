@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9839764921540DB5007EB022 /* DecimalMinusTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9839764821540DB5007EB022 /* DecimalMinusTextField.swift */; };
+		9840761121653A970056A76E /* DecimalMinusTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9840761021653A970056A76E /* DecimalMinusTextField.swift */; };
 		98631B852152C06300759B14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98631B842152C06300759B14 /* AppDelegate.swift */; };
 		98631B872152C06300759B14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98631B862152C06300759B14 /* ViewController.swift */; };
 		98631B8A2152C06300759B14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98631B882152C06300759B14 /* Main.storyboard */; };
@@ -40,7 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9839764821540DB5007EB022 /* DecimalMinusTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DecimalMinusTextField.swift; path = "../../../../../Downloads/DecimalMinusTextField-master-2/DecimalMinusTextField.swift"; sourceTree = "<group>"; };
+		9840761021653A970056A76E /* DecimalMinusTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DecimalMinusTextField.swift; path = ../../Mobile/hw3/calculator/calculator/DecimalMinusTextField.swift; sourceTree = "<group>"; };
 		98631B812152C06300759B14 /* calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98631B842152C06300759B14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98631B862152C06300759B14 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -110,10 +110,10 @@
 			isa = PBXGroup;
 			children = (
 				98F2E0972158106F004691DB /* SettingsViewController.swift */,
+				9840761021653A970056A76E /* DecimalMinusTextField.swift */,
 				98631B842152C06300759B14 /* AppDelegate.swift */,
 				98631B862152C06300759B14 /* ViewController.swift */,
 				98631B882152C06300759B14 /* Main.storyboard */,
-				9839764821540DB5007EB022 /* DecimalMinusTextField.swift */,
 				98F2E09921583A9E004691DB /* UnitsAndModes.swift */,
 				98631B8B2152C06500759B14 /* Assets.xcassets */,
 				98631B8D2152C06500759B14 /* LaunchScreen.storyboard */,
@@ -275,8 +275,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9870697F215D5B90002B3CAB /* ConversionCalcTextField.swift in Sources */,
-				9839764921540DB5007EB022 /* DecimalMinusTextField.swift in Sources */,
 				98706983215D5E78002B3CAB /* ConversionCalcButton.swift in Sources */,
+				9840761121653A970056A76E /* DecimalMinusTextField.swift in Sources */,
 				98631B872152C06300759B14 /* ViewController.swift in Sources */,
 				98706981215D5E19002B3CAB /* ConversionCalcLabel.swift in Sources */,
 				98F2E09A21583A9E004691DB /* UnitsAndModes.swift in Sources */,
